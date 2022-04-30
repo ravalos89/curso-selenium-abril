@@ -23,15 +23,15 @@ public class Metodos {
 	
 	public static void sayHello(String lang) {
 		
-		String languague = lang;
-		switch(languague) {
-		case "Spanish":
-			System.out.println("Hola");
-			break;
-		case "English":
-			System.out.println("Hello");
-			break;
-		}
+//		String languague = lang;
+//		switch(languague) {
+//		case "Spanish":
+//			System.out.println("Hola");
+//			break;
+//		case "English":
+//			System.out.println("Hello");
+//			break;
+//		}
 	}
 	
 	public static int returnNum(int numero) {
