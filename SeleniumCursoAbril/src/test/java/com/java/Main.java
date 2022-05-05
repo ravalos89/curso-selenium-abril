@@ -21,6 +21,9 @@ public class Main {
 		
 		dani.caminar();
 		
+		int suma = SumOdd.sumOdd(1, 10);
+		System.out.println("La suma de los valores impares es: "+ suma);
+		
 	}
 
 }
