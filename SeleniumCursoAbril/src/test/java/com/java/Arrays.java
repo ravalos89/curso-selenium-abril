@@ -1,6 +1,8 @@
 package com.java;
 
-public class Arrays {
+import com.java.access.HelloWorld;
+
+public class Arrays{
 
 	public static void main(String[] args) {
 		
@@ -42,6 +44,11 @@ public class Arrays {
 		
 		
 		System.out.println();
+		
+		HelloWorld hello = new HelloWorld();
+		hello.sayHelloPublic();
+		
+//		hello.sayHelloProtected();
 		
 		
 
