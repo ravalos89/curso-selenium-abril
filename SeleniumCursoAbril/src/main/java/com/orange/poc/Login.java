@@ -34,6 +34,8 @@ public class Login extends Base{
 	 * Validate user is logged successfully
 	 */
 	public boolean userLoggedSuccessfully() {
+		highlightObject(lnkWelcome);
+		takeScreenshot("userLogged");
 		return isDisplayed(lnkWelcome);
 	}
 	
@@ -42,6 +44,8 @@ public class Login extends Base{
 	 */
 	public boolean validateInvalidMsg() {
 		String actualMsg = getText(lblInvalidCredential);
+		highlightObject(lblInvalidCredential);
+		takeScreenshot("InvalidMessage");
 		if(actualMsg.equals(GlobalVariables.INVALID_CRED_MSG)) {
 			return true;
 		}else {

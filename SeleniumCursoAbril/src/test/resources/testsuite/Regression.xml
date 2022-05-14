@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="QA" parallel="tests" thread-count="5">
+
+	<test name="Google">
+		<classes>
+			<class name="com.google.FirstTest" />
+			<class name="com.google.Main" />
+		</classes>
+	</test>
+
+	<test name="OrangeLinearScripting">
+		<classes>
+			<class name="com.orange.LoginTests" />
+		</classes>
+	</test>
+
+	<test name="OrangePOM">
+		<classes>
+			<class name="com.orange.LoginTestsPOM" />
+		</classes>
+	</test>
+	
+	<test name="OrangePOM2">
+		<classes>
+			<class name="com.orange.LoginTestsPOM" />
+		</classes>
+	</test>
+	
+	<test name="OrangePOM3">
+		<classes>
+			<class name="com.orange.LoginTestsPOM" />
+		</classes>
+	</test>
+
+</suite>
